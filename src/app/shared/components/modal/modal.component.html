@@ -1,0 +1,13 @@
+<ng-container *ngIf="innerSize > 1024; else tabletOrMobile">
+    <app-modal-desktop [product]="product" (shouldCloseModal)="onClose()"></app-modal-desktop>
+</ng-container>
+
+<ng-template #tabletOrMobile>
+    <ng-container *ngIf="innerSize > 730; else mobile">
+        <app-modal-tablet [product]="product" (shouldCloseModal)="onClose()"></app-modal-tablet>
+    </ng-container>
+
+    <ng-template #mobile>
+        <app-modal-mobile [product]="product" (shouldCloseModal)="onClose()"></app-modal-mobile>
+    </ng-template>
+</ng-template>

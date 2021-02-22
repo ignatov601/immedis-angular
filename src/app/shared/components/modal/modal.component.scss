@@ -1,0 +1,132 @@
+@import "../../../../assets/variables.scss";
+
+.modal-background {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ccc;
+    opacity: 0.6;
+}
+
+.product-image {
+    width: 400px;
+    height: 420px;
+    background: radial-gradient(51.17% 51.78% at 50% 51.17%, #73909c 0%, #204859 100%);
+    overflow: hidden;
+}
+
+.product-title {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+    color: $color-dark-black;
+}
+
+.product-code {
+    font-family: "Montserrat";
+    font-size: 10px;
+    letter-spacing: 0.7px;
+    color: $color-gray;
+}
+
+.price {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    &.normal-price {
+        color: $color-black;
+    }
+
+    &.reduced-price {
+        color: $color-lite-red;
+    }
+
+    &.old-price {
+        text-decoration-line: line-through;
+    }
+}
+
+.product-rating {
+    & .star {
+        cursor: pointer;
+
+        & + .star {
+            margin-left: 4px;
+        }
+    }
+}
+
+.product-description {
+    font-family: "Montserrat";
+    font-size: 12px;
+    line-height: 17px;
+    color: $color-gray;
+}
+
+.product-sizes {
+    .label {
+        font-family: "Montserrat";
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        color: $color-dark-black;
+    }
+}
+
+.size {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #aeb3c4;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    font-family: "Montserrat";
+    font-size: 12px;
+    line-height: 17px;
+    color: $color-gray;
+    cursor: pointer;
+
+    &.active {
+        color: $color-white;
+        background-color: $color-gray;
+    }
+}
+
+.add-button {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    color: #eaeaec;
+    background: $color-orange;
+    border-radius: 22px;
+    padding: 0 48px;
+    outline: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.close-btn,
+.social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid $color-orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

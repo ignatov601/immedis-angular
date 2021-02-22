@@ -1,0 +1,9 @@
+<div class="products-container">
+    <ng-container *ngFor="let product of data">
+        <app-product [product]="product" (openProduct)="openProduct(product)"></app-product>
+    </ng-container>
+</div>
+
+<ng-container *ngIf="selectedProduct">
+    <app-modal [product]="selectedProduct" (shouldCloseModal)="closeModal()"></app-modal>
+</ng-container>

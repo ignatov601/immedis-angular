@@ -1,0 +1,78 @@
+@import "../../../../assets/variables.scss";
+
+.product-container {
+    padding: 0 15px 15px;
+
+    .product-image {
+        background: radial-gradient(51.17% 51.78% at 50% 51.17%, #73909c 0%, #204859 100%);
+        width: 265px;
+        height: 265px;
+        margin-bottom: 15px;
+        position: relative;
+        cursor: pointer;
+
+        .product-price {
+            position: absolute;
+            right: 0;
+            bottom: 30px;
+            padding: 2px 3px;
+            background-color: $color-blue;
+            min-width: 74px;
+            text-align: center;
+
+            .price {
+                font-family: "Montserrat";
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 18px;
+                text-align: center;
+                letter-spacing: 1px;
+                display: inline-block;
+            }
+
+            .price + .price {
+                margin-left: 10px;
+            }
+
+            .normal-price {
+                color: $color-black;
+            }
+
+            .reduced-price {
+                color: $color-red;
+            }
+
+            .old-price {
+                text-decoration-line: line-through;
+            }
+        }
+
+        &:hover::after {
+            content: "Show more";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: "Montserrat";
+            font-weight: bold;
+            font-size: 18px;
+            text-align: center;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: $color-white;
+            background-color: $color-blue;
+            padding: 5px 8px;
+            white-space: nowrap;
+        }
+    }
+
+    .product-title {
+        font-family: "Roboto";
+        font-weight: 500;
+        font-size: 12px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        color: $color-black;
+    }
+}

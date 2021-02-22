@@ -1,0 +1,17 @@
+<div class="product-container">
+    <div class="product-image" (click)="onShowMore()">
+        <div class="product-price">
+            <ng-container *ngTemplateOutlet="product.reducedPrice ? showReduced : showNormal"></ng-container>
+            <ng-template #showReduced>
+                <p class="price normal-price old-price">${{product.price}}</p>
+                <p class="price reduced-price">${{product.reducedPrice}}</p>
+            </ng-template>
+
+            <ng-template #showNormal>
+                <p class="price normal-price">${{product.price}}</p>
+            </ng-template>
+        </div>
+    </div>
+
+    <p class="product-title">{{product.title}}</p>
+</div>

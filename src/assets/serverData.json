@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "productCode": "701642853695",
+    "title": "Product name 1",
+    "rating": 3,
+    "size": "M",
+    "availableSizes": ["XL", "L", "M", "S"],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price": 32.99,
+    "reducedPrice": 26.99
+  },
+  {
+    "id": 2,
+    "productCode": "701642853692",
+    "title": "Product name 2",
+    "rating": 4,
+    "size": "L",
+    "availableSizes": ["XL", "L", "M", "S"],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price": 32.99,
+    "reducedPrice": null
+  },
+  {
+    "id": 3,
+    "productCode": "701642853693",
+    "title": "Product name 3",
+    "rating": 3,
+    "size": "XL",
+    "availableSizes": ["XL", "L"],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price": 32.99,
+    "reducedPrice": null
+  },
+  {
+    "id": 4,
+    "productCode": "701642853694",
+    "title": "Product name 4",
+    "rating": 2,
+    "size": "S",
+    "availableSizes": ["M", "S"],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price": 32.99,
+    "reducedPrice": 26.99
+  },
+  {
+    "id": 5,
+    "productCode": "7016428536955",
+    "title": "Product name 5",
+    "rating": 5,
+    "size": "M",
+    "availableSizes": ["XL", "L", "M", "S"],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price": 32.99,
+    "reducedPrice": 25.99
+  },
+  {
+    "id": 6,
+    "productCode": "701642853696",
+    "title": "Product name 6",
+    "rating": 4,
+    "size": "L",
+    "availableSizes": ["XL", "L", "M", "S"],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price": 42.99,
+    "reducedPrice": null
+  }
+]

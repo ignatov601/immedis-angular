@@ -1,0 +1,85 @@
+@import "../modal.component.scss";
+
+.desktop-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: $color-white;
+    padding: 20px;
+    display: flex;
+
+    .side {
+        margin-right: 35px;
+    }
+
+    .middle {
+        width: 320px;
+
+        .product-rating,
+        .product-description,
+        .product-sizes,
+        .add-button {
+            margin-top: 24px;
+        }
+    }
+}
+
+.product-code {
+    margin: 18px 0;
+}
+
+.price {
+    display: inline-block;
+
+    & + .price {
+        margin-left: 10px;
+    }
+
+    &.old-price {
+        margin-right: 16px;
+    }
+}
+
+.product-sizes {
+    display: flex;
+    align-items: center;
+
+    .label {
+        margin-right: 15px;
+    }
+}
+
+.sizes-container {
+    display: flex;
+    align-items: center;
+}
+
+.size + .size {
+    margin-left: 10px;
+}
+
+.close-btn {
+    margin: -5px;
+}
+
+.toggle-social-icons {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 30px;
+}
+
+.social-icons-container {
+    margin-left: 22px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.social-icon + .social-icon {
+    margin-top: 15px;
+}
